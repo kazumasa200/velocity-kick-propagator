@@ -1,0 +1,8 @@
+{
+  "id": "kick-propagator",
+  "name": "KickPropagator",
+  "version": "1.0.0",
+  "description": "Purpur からキックされた場合、Velocity ネットワークからも強制切断するプラグイン",
+  "authors": ["kazumasa200"],
+  "main": "com.example.kickpropagator.KickPropagatorPlugin"
+}

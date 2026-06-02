@@ -1,0 +1,10 @@
+# キックされた場合にネットワーク全体から切断するサーバー名のリスト
+# velocity.toml の servers セクションで設定したサーバー名と一致させてください
+target-servers:
+  - purpur
+  - survival
+  - creative
+
+# true: target-servers に含まれるサーバーからのキックのみネットワーク切断
+# false: すべてのサーバーからのキックをネットワーク切断（従来動作）
+use-target-servers: true
